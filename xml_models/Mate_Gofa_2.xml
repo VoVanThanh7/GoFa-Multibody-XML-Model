@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/11/26||10:47:24" using="Simscape Multibody Link Version 5.1" from="SolidWorks 31.1.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Mate_Gofa" uid="Mate_Gofa" version="197">
+<AssemblyFile name="Mate_Gofa.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="gofa6-2" uid="gofa6-2" entityUid="gofa6*:*Default">
+<Transform>
+<Rotation>-0.98682433066480324 -0.023625589470611788 -0.16006115059604309 -0.020915595746524906 0.99960830756887464 -0.018594872784132112 0.16043777068549359 -0.015002098568407852 -0.98693194232227222</Rotation>
+<Translation>2.2240823690796465 16.506192972190458 15.332640099869961</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa1-1" uid="gofa1-1" grounded="true" entityUid="gofa1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.6085971757412674 -2.5716466451175606 2.8232675956179643</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa2-1" uid="gofa2-1" entityUid="gofa2*:*Default">
+<Transform>
+<Rotation>0.16026071357459379 0 -0.98707472041612043 0 1 0 0.98707472041612043 0 0.16026071357459379</Rotation>
+<Translation>-2.6085971757412674 1.3704333548824392 2.8232675956179638</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa4-1" uid="gofa4-1" entityUid="gofa4*:*Default">
+<Transform>
+<Rotation>-0.98707472041612032 0.11408813181082759 -0.11254952019157224 0 0.70229014760492725 0.71189082630488332 0.16026071357459351 0.70268943834169351 -0.69321285109812947</Rotation>
+<Translation>-0.32102276611610753 14.257429815885265 3.4410538802506334</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa3_2-1" uid="gofa3_2-1" entityUid="gofa3_2*:*Default">
+<Transform>
+<Rotation>0.015401583488853419 -0.15951892533951403 -0.98707472041612054 0.99537136570446383 0.096103300336827444 0 0.094861138311040386 -0.98250591251294583 0.16026071357459248</Rotation>
+<Translation>-6.4123402359994941 9.4678608529470107 3.9615464550590596</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa5-1" uid="gofa5-1" entityUid="gofa5*:*Default">
+<Transform>
+<Rotation>0.16025225533773912 -0.022292489029517078 -0.98682433066480324 0.010273907531567494 0.9997284554710848 -0.020915595746524997 0.98702262460553603 -0.006786770533038119 0.16043777068549359</Rotation>
+<Translation>0.90864093654416411 16.415352362443478 6.2721482984615102</Translation>
+</Transform>
+</Instance>
+<Instance name="gofa8-1" uid="gofa8-1" entityUid="gofa8*:*Default">
+<Transform>
+<Rotation>-0.94271562408283738 -0.16006115059604342 0.29269041695958747 -0.29358112415010046 -0.018594872784131699 -0.95575329151873978 0.15842151259494322 -0.9869319423222721 -0.029461255423311267</Rotation>
+<Translation>0.1600613189214713 19.325610499145956 18.836450976399984</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa1-1</Uid>
+</InstancePath>
+<Position>0 4.1909999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa2-1</Uid>
+</InstancePath>
+<Position>0 0.24892000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa1-1</Uid>
+</InstancePath>
+<Position>0 4.1909999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa2-1</Uid>
+</InstancePath>
+<Position>0 0.76200000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa2-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 2.7740233854452594 2.1590000000000003</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa3_2-1</Uid>
+</InstancePath>
+<Position>-5.3481587837837843 2.2204460492503131e-16 -1.7780000000000005</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa2-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 2.7740233854452594 2.1590000000000003</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa3_2-1</Uid>
+</InstancePath>
+<Position>-5.3481587837837843 4.4408920985006262e-16 -5.8420000000000014</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa4-1</Uid>
+</InstancePath>
+<Position>4.3179999999999996 0 8.8817841970012523e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa3_2-1</Uid>
+</InstancePath>
+<Position>4.8118412162162159 4.4408920985006262e-16 -1.7780000000000014</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa4-1</Uid>
+</InstancePath>
+<Position>4.3179999999999996 0 8.8817841970012523e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa3_2-1</Uid>
+</InstancePath>
+<Position>4.8118412162162159 4.4408920985006262e-16 -1.7780000000000014</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa4-1</Uid>
+</InstancePath>
+<Position>4.3179999999999996 0 8.8817841970012523e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa3_2-1</Uid>
+</InstancePath>
+<Position>4.8118412162162141 -2.2204460492503131e-16 -5.8420000000000005</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa4-1</Uid>
+</InstancePath>
+<Position>2.1590000000000016 3.6027177152292662 -0.60865762616008379</Position>
+<Axis>0 0.71906851818138617 -0.69493918162701551</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa5-1</Uid>
+</InstancePath>
+<Position>-8.8817841970012523e-16 0 2.9196955092707491</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa4-1</Uid>
+</InstancePath>
+<Position>2.1590000000000016 3.9680045224654084 -0.96168673042660835</Position>
+<Axis>0 -0.71906851818138606 0.69493918162701529</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa5-1</Uid>
+</InstancePath>
+<Position>0.50291999999999959 0 2.9196955092707491</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>gofa5-1</Uid>
+</InstancePath>
+<Position>9.1546461423962775 0 0.65909550927074867</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa6-2</Uid>
+</InstancePath>
+<Position>0.50546000000000024 3.5527136788005009e-15 -1.7763568394002505e-15</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa5-1</Uid>
+</InstancePath>
+<Position>9.1546461423962775 0 0.65909550927074867</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa6-2</Uid>
+</InstancePath>
+<Position>0.50546000000000024 3.5527136788005009e-15 -1.7763568394002505e-15</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa6-2</Uid>
+</InstancePath>
+<Position>2.54 2.8145123803049792 -3.0022799999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gofa8-1</Uid>
+</InstancePath>
+<Position>4.4408920985006262e-16 0.17780000000000129 -3.5527136788005009e-15</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa6-2</Uid>
+</InstancePath>
+<Position>2.5400000000000005 2.8145123803049827 -2.7228800000000035</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gofa8-1</Uid>
+</InstancePath>
+<Position>-4.4408920985006262e-16 0.30480000000000018 -3.5527136788005009e-15</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="gofa1" uid="gofa1*:*Default" version="1828">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>56834.308819355785</Mass>
+<CenterOfMass>0.0020112610455402351 2.1558464267968525 0.018658858201541079</CenterOfMass>
+<Inertia>163782.5054835086 118014.43606759454 158666.64295354681 1710.5541373347814 -267.8093672191963 184.54492272356566</Inertia>
+</MassProperties>
+<GeometryFile name="gofa1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa2" uid="gofa2*:*Default" version="639">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>46229.744548190145</Mass>
+<CenterOfMass>7.5762044081576249e-07 2.5837602918563025 -0.42495798694479003</CenterOfMass>
+<Inertia>141376.5717502214 131736.1419427378 77958.928144476493 3737.7788591272147 -0.20704939115218143 -0.11742818338505084</Inertia>
+</MassProperties>
+<GeometryFile name="gofa2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa3_2" uid="gofa3_2*:*Default" version="204">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa3_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>60369.895056561531</Mass>
+<CenterOfMass>-0.26328797218344702 -4.5388209975927514e-06 -1.0591152134122406</CenterOfMass>
+<Inertia>117861.54093217225 1163139.3810946047 1126802.1278799912 0.33526352858948116 -292.96819942255502 -3.6929381401709529</Inertia>
+</MassProperties>
+<GeometryFile name="gofa3_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa4" uid="gofa4*:*Default" version="293">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>61342.838894056433</Mass>
+<CenterOfMass>1.8454130356064415 0.86709801291323152 0.019472676741070245</CenterOfMass>
+<Inertia>178277.82085256267 153384.25281357099 245812.72783923481 -1447.0529502830284 -374.57607860104793 -16680.049417430611</Inertia>
+</MassProperties>
+<GeometryFile name="gofa4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa5" uid="gofa5*:*Default" version="521">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>60137.620713391952</Mass>
+<CenterOfMass>3.678401433380873 1.8694270436591436e-05 1.6785905440124567</CenterOfMass>
+<Inertia>196050.45247504784 561127.30344794737 451040.23467331944 2.2768822943049027 176841.80606941943 -0.70437661745936908</Inertia>
+</MassProperties>
+<GeometryFile name="gofa5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa6" uid="gofa6*:*Default" version="701">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>98320.098211153905</Mass>
+<CenterOfMass>2.6892495208515714 1.4432021238943895 0.1521307200538474</CenterOfMass>
+<Inertia>445936.95601604518 347767.31490744191 423892.57845565391 -20531.191601691487 2179.7879770567656 21232.174743784239</Inertia>
+</MassProperties>
+<GeometryFile name="gofa6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gofa8" uid="gofa8*:*Default" version="114">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="gofa8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>411.35519717407948</Mass>
+<CenterOfMass>0 0.10628424447580723 0</CenterOfMass>
+<Inertia>83.83156859462099 163.92803987572302 83.831568594621004 0 -9.4528876913579957e-16 0</Inertia>
+</MassProperties>
+<GeometryFile name="gofa8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
